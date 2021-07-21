@@ -1,0 +1,114 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "hQRGGCqC6n6YZiRJ8GQC4P",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "el51C_ukCXEN",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "hQRGGCqC6n6YZiRJ8GQC4P",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "SdIHIdwjY_4",
+          "name": "MarkerAltIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__MarkerAlt.tsx"
+        },
+        {
+          "id": "BIt_PMbaYoS",
+          "name": "MarkerIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Marker.tsx"
+        },
+        {
+          "id": "0J9a-KrBWLr",
+          "name": "DownwardTriangleIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__DownwardTriangle.tsx"
+        },
+        {
+          "id": "LCvb9lxvcz2",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "vf8jTTpAlWS",
+          "name": "Facebook1Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Facebook1.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "d87JBU-oh",
+          "name": "70435438-11AA-4870-9F06-65BFC991AA4A 1",
+          "filePath": "plasmic/blank_project/images/_7043543811Aa48709F0665Bfc991Aa4A1.jpeg"
+        },
+        {
+          "id": "UgPizG9U4",
+          "name": "70435438-11AA-4870-9F06-65BFC991AA4A 2",
+          "filePath": "plasmic/blank_project/images/_7043543811Aa48709F0665Bfc991Aa4A2.png"
+        },
+        {
+          "id": "bklFJW3iAU",
+          "name": "70435438-11AA-4870-9F06-65BFC991AA4A 3",
+          "filePath": "plasmic/blank_project/images/_7043543811Aa48709F0665Bfc991Aa4A3.jpeg"
+        },
+        {
+          "id": "_3w6aEL3ch",
+          "name": "70435438-11AA-4870-9F06-65BFC991AA4A 4",
+          "filePath": "plasmic/blank_project/images/_7043543811Aa48709F0665Bfc991Aa4A4.jpeg"
+        },
+        {
+          "id": "tUkErjXweS",
+          "name": "NightSky-Background",
+          "filePath": "plasmic/blank_project/images/nightSkyBackground.jpeg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "3VUaaJyQToskBge3CounT38bYaLSC09DBjK0gXia5vDoSWpgIvVLE856kfBZTJjCQoohtC1czovI8uu8mCQ"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "tjHrlFa1JFL0",
+        "name": "Screen",
+        "projectId": "hQRGGCqC6n6YZiRJ8GQC4P",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}
